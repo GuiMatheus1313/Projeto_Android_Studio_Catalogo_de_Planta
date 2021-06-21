@@ -13,7 +13,7 @@ public class Tela_cadastro extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_tela_cadastro);
-
+        //criando a ação para retornar para a tela anterior, sendo a Main
         Button button_perfilmenu1 = findViewById(R.id.buttonCadastroVoltar);
 
         button_perfilmenu1.setOnClickListener(new View.OnClickListener() {

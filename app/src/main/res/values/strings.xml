@@ -2,4 +2,5 @@
     <string name="app_name">Catálogo de Plantas</string>
     <string name="BotaoPerfil">Perfil</string>
     <string name="TituloCadastro">Cadastro de Usuário</string>
+    <string name="PrimeiroTituloMain">Notícias</string>
 </resources>
