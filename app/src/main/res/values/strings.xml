@@ -3,4 +3,12 @@
     <string name="BotaoPerfil">Perfil</string>
     <string name="TituloCadastro">Cadastro de Usuário</string>
     <string name="PrimeiroTituloMain">Notícias</string>
+    <string name="SegundoTituloMain">Escolha o tipo de catálogo que deseja ver</string>
+    <string name="PrimeiroBotaoCatalogo">Consúmiveis</string>
+    <string name="SegundoBotaoCatalogo">Árvores (indisponível)</string>
+    <string name="TerceiroBotaoCatalogo">Medicinais (indisponível)</string>
+    <string name="QuartoBotaoCatalogo">Ornamentares (indisponível)</string>
+    <string name="MétodoCadastro">MetodoCadastro()</string>
+    <string name="MorangoTituloConsumivel">Morango</string>
+    <string name="LimaoTituloConsumivel">Limão</string>
 </resources>

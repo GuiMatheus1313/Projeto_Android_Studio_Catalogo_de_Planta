@@ -21,13 +21,16 @@
         android:layout_width="290dp"
         android:layout_height="54dp"
         android:layout_marginTop="120dp"
+        android:backgroundTint="@color/black"
         android:ems="10"
-        android:inputType="textPersonName"
-        android:text="Digite sua senha aqui"
+        android:hint="Digite sua senha aqui"
+        android:inputType="textPersonName|textWebPassword"
+        android:textColor="@color/black"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextEmailCadastro" />
+        app:layout_constraintTop_toBottomOf="@+id/editTextEmailCadastro"
+        tools:textColorHint="@color/black" />
 
     <TextView
         android:id="@+id/textViewTituloCadastro"
@@ -35,6 +38,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="108dp"
         android:text="@string/TituloCadastro"
+        android:textColor="#000000"
         android:textSize="30dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.445"
@@ -46,19 +50,23 @@
         android:layout_width="290dp"
         android:layout_height="54dp"
         android:layout_marginTop="80dp"
+        android:backgroundTint="@color/black"
         android:ems="10"
+        android:hint="Digite seu email aqui"
         android:inputType="textPersonName"
-        android:text="Digite seu email aqui"
+        android:textColor="@color/black"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textViewTituloCadastro" />
+        app:layout_constraintTop_toBottomOf="@+id/textViewTituloCadastro"
+        tools:textColorHint="@color/black" />
 
     <Button
         android:id="@+id/buttonCadastroEnviar"
         android:layout_width="290dp"
         android:layout_height="54dp"
-        android:text="Cadastra"
+        android:onClick="@string/MétodoCadastro"
+        android:text="Cadastrar"
         app:layout_constraintBottom_toTopOf="@+id/buttonCadastroVoltar"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.504"

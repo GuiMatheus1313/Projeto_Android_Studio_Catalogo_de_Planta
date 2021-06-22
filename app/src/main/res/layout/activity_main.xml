@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#EFE9CE"
+    android:background="@color/Fundo_app"
     tools:context=".MainActivity">
 
     <LinearLayout
@@ -22,38 +22,88 @@
             android:id="@+id/TextView_tituloCarrosel"
             android:layout_width="157dp"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="125dp"
-            android:layout_marginTop="70dp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="30dp"
+            android:fontFamily="@font/berkshire_swash"
             android:gravity="center"
             android:text="@string/PrimeiroTituloMain"
-            android:textColor="#000000"
+            android:textColor="@color/black"
             android:textSize="24sp" />
 
-        <com.synnapps.carouselview.CarouselView
-            android:id="@+id/Caroussel1Main"
-            android:layout_width="360dp"
-            android:layout_height="360dp"
-            android:layout_marginTop="20dp"
-            app:fillColor="#fff"
-            app:pageColor="#000"
-            app:slideInterval="3000" />
+        <ImageView
+            android:layout_width="234dp"
+            android:layout_height="181dp"
+            android:layout_marginLeft="60sp"
+            android:layout_marginTop="10sp"
+            app:srcCompat="@drawable/loja1" />
 
 
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30sp"
+            android:layout_marginTop="20sp"
+            android:fontFamily="@font/galada"
+            android:text="@string/SegundoTituloMain"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
 
         <Button
             android:id="@+id/button_perfilmenu"
             android:layout_width="117dp"
             android:layout_height="75dp"
             android:layout_marginLeft="40dp"
-            android:layout_marginTop="100dp"
+            android:layout_marginTop="300dp"
             android:background="@drawable/botaoformato_perfil"
             android:text="@string/BotaoPerfil" />
 
+        <ImageButton
+            android:id="@+id/PrimeiroBotaoCatalogo"
+            android:layout_width="160dp"
+            android:layout_height="63dp"
+            android:layout_marginLeft="10sp"
+            android:layout_marginTop="-360dp"
+            android:background="@color/Fundo_app"
+            android:scaleType="centerCrop"
+            android:src="@drawable/laranja_primeirobotaocatalogo"
+            android:text="@string/PrimeiroBotaoCatalogo"
+            tools:backgroundTint="#EFE9CE" />
+
         <Button
-            android:id="@+id/button"
-            android:layout_width="171dp"
-            android:layout_height="wrap_content"
-            android:text="Button" />
+            android:id="@+id/button_SegundoCatalogo"
+            android:layout_width="160dp"
+            android:layout_height="63dp"
+            android:layout_marginLeft="207sp"
+            android:layout_marginTop="-62sp"
+            android:text="@string/SegundoBotaoCatalogo" />
+
+        <TextView
+            android:id="@+id/textView_MensagemCatalogo"
+            android:layout_width="100sp"
+            android:layout_height="23dp"
+            android:layout_marginLeft="35sp"
+            android:layout_marginTop="-35sp"
+            android:fontFamily="@font/galada"
+            android:text="@string/PrimeiroBotaoCatalogo"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/button_TerceiroCatalogo"
+            android:layout_width="160dp"
+            android:layout_height="63dp"
+            android:layout_marginLeft="10sp"
+            android:layout_marginTop="35sp"
+            android:text="@string/TerceiroBotaoCatalogo" />
+
+        <Button
+            android:id="@+id/button_QuartoCatalogo"
+            android:layout_width="163dp"
+            android:layout_height="63dp"
+            android:layout_marginLeft="207sp"
+            android:text="@string/QuartoBotaoCatalogo"
+            tools:layout_marginTop="-62sp" />
     </LinearLayout>
 
 
