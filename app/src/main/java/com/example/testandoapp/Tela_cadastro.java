@@ -23,9 +23,7 @@ public class Tela_cadastro extends AppCompatActivity {
         button_perfilmenu1.setOnClickListener(new View.OnClickListener() {
 
             public void onClick(View v) {
-
-                finish();
-
+                Tela_cadastro.super.onStop();
             }
 
 

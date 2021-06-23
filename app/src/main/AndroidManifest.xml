@@ -9,7 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Testandoapp">
-        <activity android:name=".Activity_Catalogo_Consumiveis"></activity>
+        <activity android:name=".Activity_CatalogoConsumiveis_limao"></activity>
+        <activity android:name=".Activity_CatalogoConsumiveis_Morango" />
+        <activity android:name=".Activity_Catalogo_Consumiveis" />
         <activity android:name=".Tela_cadastro" />
         <activity android:name=".MainActivity">
             <intent-filter>

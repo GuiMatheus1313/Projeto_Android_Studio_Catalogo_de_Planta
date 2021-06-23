@@ -32,29 +32,23 @@
             android:textColor="@color/white"
             android:textSize="20sp" />
 
-        <ImageView
-            android:id="@+id/imageView_Catalogo_Limao"
+        <Button
+            android:id="@+id/button_RetornaCatalogo"
+            android:layout_width="58dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="170dp"
+            android:layout_marginTop="300dp"
+            android:background="@drawable/botaoformato_catalogo_retorno"
+            android:fontFamily="sans-serif-medium"
+            android:text="@string/RetornodeCatalogo" />
+
+        <ImageButton
+            android:id="@+id/imageButton_Catalogo_Limao"
             android:layout_width="match_parent"
-            android:layout_height="100dp"
-            android:layout_marginTop="2sp"
+            android:layout_height="100sp"
+            android:layout_marginTop="-340sp"
+            android:backgroundTint="@color/Fundo_app"
             android:scaleType="centerCrop"
             app:srcCompat="@drawable/limao" />
-
-        <TextView
-            android:id="@+id/textView_TituloLimao"
-            android:layout_width="50sp"
-            android:layout_height="28sp"
-            android:layout_marginLeft="3sp"
-            android:layout_marginTop="-29sp"
-            android:fontFamily="@font/galada"
-            android:text="@string/LimaoTituloConsumivel"
-            android:textColor="@color/white"
-            android:textSize="20sp" />
-
-        <Button
-            android:id="@+id/button"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Button" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

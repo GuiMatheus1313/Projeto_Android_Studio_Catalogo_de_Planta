@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Fundo_app"
+    tools:context=".Activity_CatalogoConsumiveis_Morango">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
+
+        <TextView
+            android:id="@+id/textView_TituloConsumivelMorango"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="90sp"
+            android:layout_marginTop="40sp"
+            android:fontFamily="@font/berkshire_swash"
+            android:text="@string/TituloCatalogoMorango"
+            android:textColor="@color/black"
+            android:textSize="34sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageView_CatalogoMorango"
+            android:layout_width="140sp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="110sp"
+            android:backgroundTint="@color/Fundo_app"
+            app:srcCompat="@drawable/morango_catalogo" />
+
+        <TextView
+            android:id="@+id/textView_TitInfoCatalogoMorango"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="93sp"
+            android:layout_marginTop="30sp"
+            android:fontFamily="@font/galada"
+            android:text="@string/TitInfoCatalogo"
+            android:textColor="@color/black"
+            android:textSize="22sp" />
+
+        <TextView
+            android:id="@+id/textView_Parte1InfoMorango"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40sp"
+            android:layout_marginTop="4sp"
+            android:fontFamily="sans-serif-medium"
+            android:text="@string/Parte1InfoMorango"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textView_Parte2InfoMorango"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40sp"
+            android:layout_marginTop="4sp"
+            android:fontFamily="sans-serif-medium"
+            android:text="@string/Parte2InfoMorango"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textView_Parte3InfoMorango"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40sp"
+            android:layout_marginTop="4sp"
+            android:fontFamily="sans-serif-medium"
+            android:text="@string/Parte3InfoMorango"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textView_Parte4InfoMorango"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40sp"
+            android:layout_marginTop="4sp"
+            android:fontFamily="sans-serif-medium"
+            android:text="@string/Parte4InfoMorango"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textView_Parte5InfoMorango"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40sp"
+            android:layout_marginTop="4sp"
+            android:fontFamily="sans-serif-medium"
+            android:text="@string/Parte5InfoMorango"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textView_Parte6InfoMorango"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40sp"
+            android:layout_marginTop="4sp"
+            android:fontFamily="sans-serif-medium"
+            android:text="@string/Parte6InfoMorango"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textView_Parte7InfoMorango"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40sp"
+            android:layout_marginTop="4sp"
+            android:fontFamily="sans-serif-medium"
+            android:text="@string/Parte7InfoMorango"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textView_ExtraCatalogoMorango"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="140sp"
+            android:layout_marginTop="10sp"
+            android:fontFamily="@font/berkshire_swash"
+            android:text="@string/TitExtraCatalogo"
+            android:textColor="@color/black" />
+
+        <Button
+            android:id="@+id/button_ExtraCatalogoMorango"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="148sp"
+            android:text="@string/BotaoExtraCatalogo" />
+
+        <Button
+            android:id="@+id/button_RetornaCatalogo3"
+            android:layout_width="58dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/botaoformato_catalogo_retorno"
+            android:fontFamily="sans-serif-medium"
+            android:text="@string/RetornodeCatalogo" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

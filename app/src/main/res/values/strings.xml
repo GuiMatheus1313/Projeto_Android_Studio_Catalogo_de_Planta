@@ -11,4 +11,53 @@
     <string name="MétodoCadastro">MetodoCadastro()</string>
     <string name="MorangoTituloConsumivel">Morango</string>
     <string name="LimaoTituloConsumivel">Limão</string>
+    <string name="RetornodeCatalogo">{---</string>
+    <string name="TituloCatalogoMorango">MORANGO</string>
+    <string name="TituloCatalogoLimao">LIMÃO</string>
+    <string name="Parte1InfoMorango">
+        -Tipo: Fruto rasteiro
+    </string>
+    <string name="Parte2InfoMorango">
+        -Nome botânico: Fragaria vesca
+    </string>
+    <string name="Parte3InfoMorango">
+        -Região de origem: Europa
+    </string>
+    <string name="Parte4InfoMorango">
+        -Nome do conjunto: Morangueiro
+    </string>
+    <string name="Parte5InfoMorango">
+        -Espécie comum: Fragaria
+    </string>
+    <string name="Parte6InfoMorango">
+        -Benefícios: Actua contra diarreia, artrites
+    </string>
+    <string name="Parte7InfoMorango">
+        -pH: 5,3 e 6,5;
+    </string>
+    <string name="TitInfoCatalogo"> Informações Gerais</string>
+    <string name="TitExtraCatalogo"> Informações extras </string>
+    <string name="BotaoExtraCatalogo">Site</string>
+    <string name="Parte1InfoLimao">
+        -Tipo: Fruto cítrico (citrus)
+    </string>
+    <string name="Parte2InfoLimao">
+        -Nome botânico: Citrus limon
+    </string>
+    <string name="Parte3InfoLimao">
+        -Região de origem: Continente asiático
+    </string>
+    <string name="Parte4InfoLimao">
+        -Nome do conjunto: Limoeiro
+    </string>
+    <string name="Parte5InfoLimao">
+        -Espécie comum: Citrus limonum
+    </string>
+    <string name="Parte6InfoLimao">
+        -Benefícios: Anti-inflamatório e anti-alérgico
+    </string>
+    <string name="Parte7InfoLimao">
+        -Tipo de solo: Bem drenado e frescos;
+    </string>
+
 </resources>

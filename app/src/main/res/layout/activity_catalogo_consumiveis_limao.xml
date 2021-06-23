@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Fundo_app"
+    tools:context=".Activity_CatalogoConsumiveis_limao" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
+
+        <TextView
+            android:id="@+id/textView_TituloConsumivelLimao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="120sp"
+            android:layout_marginTop="40sp"
+            android:fontFamily="@font/berkshire_swash"
+            android:text="@string/TituloCatalogoLimao"
+            android:textColor="@color/black"
+            android:textSize="34sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageView_CatalogoLimao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="80sp"
+            android:backgroundTint="@color/Fundo_app"
+            app:srcCompat="@drawable/limao_catalogo" />
+
+        <TextView
+            android:id="@+id/textView_TitInfoCatalogoLimao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="93sp"
+            android:layout_marginTop="30sp"
+            android:fontFamily="@font/galada"
+            android:text="@string/TitInfoCatalogo"
+            android:textColor="@color/black"
+            android:textSize="22sp" />
+
+        <TextView
+            android:id="@+id/textView_Parte1InfoLimao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40sp"
+            android:layout_marginTop="4sp"
+            android:fontFamily="sans-serif-medium"
+            android:text="@string/Parte1InfoLimao"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textView_Parte2InfoLimao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40sp"
+            android:layout_marginTop="4sp"
+            android:fontFamily="sans-serif-medium"
+            android:text="@string/Parte2InfoLimao"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textView_Parte3InfoLimao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40sp"
+            android:layout_marginTop="4sp"
+            android:fontFamily="sans-serif-medium"
+            android:text="@string/Parte3InfoLimao"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textView_Parte4InfoLimao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40sp"
+            android:layout_marginTop="4sp"
+            android:fontFamily="sans-serif-medium"
+            android:text="@string/Parte4InfoLimao"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textView_Parte5InfoLimao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40sp"
+            android:layout_marginTop="4sp"
+            android:fontFamily="sans-serif-medium"
+            android:text="@string/Parte5InfoLimao"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textView_Parte6InfoLimao"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40sp"
+            android:layout_marginTop="4sp"
+            android:fontFamily="sans-serif-medium"
+            android:text="@string/Parte6InfoLimao"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textView_Parte7InfoLimao"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40sp"
+            android:layout_marginTop="4sp"
+            android:fontFamily="sans-serif-medium"
+            android:text="@string/Parte7InfoLimao"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textView_ExtraCatalogoLimao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="140sp"
+            android:layout_marginTop="10sp"
+            android:fontFamily="@font/berkshire_swash"
+            android:text="@string/TitExtraCatalogo"
+            android:textColor="@color/black" />
+
+        <Button
+            android:id="@+id/button_ExtraCatalogoLimao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="148sp"
+            android:text="@string/BotaoExtraCatalogo" />
+
+        <Button
+            android:id="@+id/button_RetornaCatalogo2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/botaoformato_catalogo_retorno"
+            android:fontFamily="sans-serif-medium"
+            android:text="@string/RetornodeCatalogo" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
