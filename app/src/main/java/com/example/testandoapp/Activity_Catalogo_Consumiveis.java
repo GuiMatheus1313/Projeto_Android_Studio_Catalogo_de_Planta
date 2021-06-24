@@ -14,10 +14,13 @@ public class Activity_Catalogo_Consumiveis extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_catalogo_consumiveis);
-
+        //Criando métodos para as ImageButtons e Buttons presente nesta Activity
         ImageButton morango = (ImageButton) findViewById(R.id.imageButton_Catalogo_Morango);
+
         ImageButton limao = (ImageButton) findViewById(R.id.imageButton_Catalogo_Limao);
+
         Button retorno = (Button) findViewById(R.id.button_RetornaCatalogo);
+        //Retornando à Main Activity, sendo uma intent explicita
         retorno.setOnClickListener(new View.OnClickListener() {
            public void onClick(View v){
                Intent telamenu = new Intent(Activity_Catalogo_Consumiveis.this, MainActivity.class);
@@ -25,7 +28,7 @@ public class Activity_Catalogo_Consumiveis extends AppCompatActivity {
                startActivity(telamenu);
            }
         });
-
+        //Leva o usuário à Activity do exemplo Morango, sendo uma intent explicita
         morango.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -34,7 +37,7 @@ public class Activity_Catalogo_Consumiveis extends AppCompatActivity {
                 startActivity(telaMorango);
             }
         });
-
+        //Leva o usuário à Activity do exemplo Limão, sendo uma intent explicita
         limao.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

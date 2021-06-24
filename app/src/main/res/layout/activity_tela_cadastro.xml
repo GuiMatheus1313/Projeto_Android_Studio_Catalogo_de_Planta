@@ -11,7 +11,7 @@
         android:id="@+id/buttonCadastroVoltar"
         android:layout_width="392dp"
         android:layout_height="54dp"
-        android:text="Voltar"
+        android:text="@string/RetornodoCadastro"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
@@ -23,14 +23,14 @@
         android:layout_marginTop="120dp"
         android:backgroundTint="@color/black"
         android:ems="10"
-        android:hint="Digite sua senha aqui"
-        android:inputType="textPersonName|textWebPassword"
+        android:hint="@string/HintPerfilSenha"
+        android:inputType="none|textPassword"
         android:textColor="@color/black"
+        android:textColorHint="@color/black"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextEmailCadastro"
-        tools:textColorHint="@color/black" />
+        app:layout_constraintTop_toBottomOf="@+id/editTextEmailCadastro" />
 
     <TextView
         android:id="@+id/textViewTituloCadastro"
@@ -52,14 +52,14 @@
         android:layout_marginTop="80dp"
         android:backgroundTint="@color/black"
         android:ems="10"
-        android:hint="Digite seu email aqui"
+        android:hint="@string/HintPerfilEmail"
         android:inputType="textPersonName"
         android:textColor="@color/black"
+        android:textColorHint="@color/black"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textViewTituloCadastro"
-        tools:textColorHint="@color/black" />
+        app:layout_constraintTop_toBottomOf="@+id/textViewTituloCadastro" />
 
     <Button
         android:id="@+id/buttonCadastroEnviar"

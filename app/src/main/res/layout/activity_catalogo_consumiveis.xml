@@ -50,5 +50,16 @@
             android:backgroundTint="@color/Fundo_app"
             android:scaleType="centerCrop"
             app:srcCompat="@drawable/limao" />
+
+        <TextView
+            android:id="@+id/textView_Catalogo_Limao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20sp"
+            android:layout_marginTop="-28sp"
+            android:fontFamily="@font/galada"
+            android:text="@string/LimaoTituloConsumivel"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

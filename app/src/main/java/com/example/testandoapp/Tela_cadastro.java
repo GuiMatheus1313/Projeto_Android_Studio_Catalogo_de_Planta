@@ -15,19 +15,22 @@ public class Tela_cadastro extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_tela_cadastro);
-        //criando a ação para retornar para a tela anterior, sendo a Main
+        //criando os métodos para cada Button nesta Activity
         Button button_perfilmenu1 = findViewById(R.id.buttonCadastroVoltar);
 
         Button button_cadastro = findViewById(R.id.buttonCadastroEnviar);
-
+        //Retornando à Main Activity, sendo uma intent explicita
         button_perfilmenu1.setOnClickListener(new View.OnClickListener() {
 
             public void onClick(View v) {
-                Tela_cadastro.super.onStop();
+                Intent telamenu = new Intent(Tela_cadastro.this, MainActivity.class);
+                finish();
+                startActivity(telamenu);
             }
 
 
         });
+        //Mostra o usuário uma caixa de informação na tela
         button_cadastro.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

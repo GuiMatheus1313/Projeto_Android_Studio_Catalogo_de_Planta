@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Testandoapp">
-        <activity android:name=".Activity_CatalogoConsumiveis_limao"></activity>
+        <activity android:name=".Activity_Lista_Pedido_e_Contato"></activity>
+        <activity android:name=".Activity_CatalogoConsumiveis_limao" />
         <activity android:name=".Activity_CatalogoConsumiveis_Morango" />
         <activity android:name=".Activity_Catalogo_Consumiveis" />
         <activity android:name=".Tela_cadastro" />
@@ -25,5 +26,5 @@
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />
     </application>
-
+    <uses-permission android:name="android.permission.CALL_PHONE" />
 </manifest>

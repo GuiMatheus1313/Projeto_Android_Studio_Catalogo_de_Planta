@@ -59,5 +59,13 @@
     <string name="Parte7InfoLimao">
         -Tipo de solo: Bem drenado e frescos;
     </string>
+    <string name="Listarpedidos">Listar pedidos</string>
+    <string name="HintPerfilEmail">Digite seu email aqui</string>
+    <string name="HintPerfilSenha">Digite sua senha aqui</string>
+    <string name="RetornodoCadastro">Voltar</string>
+    <string name="TitPedidoEdit">Digite neste campo o seu feedback e desejos de conteúdos</string>
+    <string name="TitPedido">Pedido e Contato</string>
+    <string name="EnviarPedido">ENVIAR</string>
+    <string name="TitContato">Telefone e Email</string>
 
 </resources>
