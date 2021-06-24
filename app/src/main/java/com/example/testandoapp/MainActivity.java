@@ -22,9 +22,9 @@ public class MainActivity extends AppCompatActivity {
 
       ImageButton button_catalogoConsumiveis = findViewById(R.id.PrimeiroBotaoCatalogo);
 
-      ImageButton imagebutton_promo1 = (ImageButton) findViewById(R.id.imageButton_Promo1);
+      ImageButton imagebutton_promo1 = findViewById(R.id.imageButton_Promo1);
 
-      Button button_pedidoecontato = (Button) findViewById(R.id.button_ListaDesejo);
+      Button button_pedidoecontato = findViewById(R.id.button_ListaDesejo);
         //Leva o usuário à Activity Tela Cadastro, sendo uma intent explicita
         button_perfilmenu2.setOnClickListener(new View.OnClickListener() {
 

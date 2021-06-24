@@ -15,11 +15,11 @@ public class Activity_Catalogo_Consumiveis extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_catalogo_consumiveis);
         //Criando métodos para as ImageButtons e Buttons presente nesta Activity
-        ImageButton morango = (ImageButton) findViewById(R.id.imageButton_Catalogo_Morango);
+        ImageButton morango =  findViewById(R.id.imageButton_Catalogo_Morango);
 
-        ImageButton limao = (ImageButton) findViewById(R.id.imageButton_Catalogo_Limao);
+        ImageButton limao =  findViewById(R.id.imageButton_Catalogo_Limao);
 
-        Button retorno = (Button) findViewById(R.id.button_RetornaCatalogo);
+        Button retorno = findViewById(R.id.button_RetornaCatalogo);
         //Retornando à Main Activity, sendo uma intent explicita
         retorno.setOnClickListener(new View.OnClickListener() {
            public void onClick(View v){

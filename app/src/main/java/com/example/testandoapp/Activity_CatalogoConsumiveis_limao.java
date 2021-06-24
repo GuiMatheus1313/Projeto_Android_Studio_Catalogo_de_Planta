@@ -15,9 +15,9 @@ public class Activity_CatalogoConsumiveis_limao extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_catalogo_consumiveis_limao);
         //Criação de métodos para os Buttons
-        Button retornar = (Button) findViewById(R.id.button_RetornaCatalogo2);
+        Button retornar = findViewById(R.id.button_RetornaCatalogo2);
 
-        Button site = (Button) findViewById(R.id.button_ExtraCatalogoLimao);
+        Button site = findViewById(R.id.button_ExtraCatalogoLimao);
         //Retornando à Activity Catálogo Consumíveis, sendo uma intent explicita
         retornar.setOnClickListener(new View.OnClickListener() {
 
