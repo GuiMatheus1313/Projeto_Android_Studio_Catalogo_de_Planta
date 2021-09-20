@@ -24,6 +24,8 @@ public class MainActivity extends AppCompatActivity {
 
       ImageButton imagebutton_promo1 = findViewById(R.id.imageButton_Promo1);
 
+      ImageButton imagebutton_extras = findViewById((R.id.imageButton_Extras));
+
       Button button_pedidoecontato = findViewById(R.id.button_ListaDesejo);
         //Leva o usuário à Activity Tela Cadastro, sendo uma intent explicita
         button_perfilmenu2.setOnClickListener(new View.OnClickListener() {
@@ -57,6 +59,15 @@ public class MainActivity extends AppCompatActivity {
                 Intent telapedido = new Intent(MainActivity.this, Activity_Lista_Pedido_e_Contato.class);
                 finish();
                 startActivity(telapedido);
+            }
+        });
+
+        imagebutton_extras.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent telaextras = new Intent(MainActivity.this, Activity_CalcularUmidade.class);
+                finish();
+                startActivity(telaextras);
             }
         });
 

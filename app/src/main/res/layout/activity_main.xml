@@ -126,6 +126,16 @@
             android:layout_marginTop="-48sp"
             android:text="@string/BotaoPerfil" />
 
+        <ImageButton
+            android:id="@+id/imageButton_Extras"
+            android:layout_width="35sp"
+            android:layout_height="37sp"
+            android:layout_marginLeft="306sp"
+            android:layout_marginTop="-620sp"
+            android:background="@drawable/botaoformato_catalogo_retorno"
+            android:backgroundTint="@color/purple_500"
+            app:srcCompat="@drawable/humidity" />
+
     </LinearLayout>
 
 

@@ -67,5 +67,8 @@
     <string name="TitPedido">Pedido e Contato</string>
     <string name="EnviarPedido">ENVIAR</string>
     <string name="TitContato">Telefone e Email</string>
+    <string name="TitExtras">Aqui esta algumas funções extras que o APP oferece!</string>
+    <string name="btnUmidade">Calcular a umidade do local</string>
+    <string name="btnGPS">Encontrar lojas botânicas próximas</string>
 
 </resources>

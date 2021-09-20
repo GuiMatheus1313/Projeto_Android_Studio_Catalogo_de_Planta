@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.testandoapp">
 
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -9,7 +11,16 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Testandoapp">
-        <activity android:name=".Activity_Lista_Pedido_e_Contato"></activity>
+        <activity
+            android:name=".Activity_EncontraLoja"
+            android:exported="true" />
+        <activity
+            android:name=".Activity_CalcUmidade"
+            android:exported="true" />
+        <activity
+            android:name=".Activity_CalcularUmidade"
+            android:exported="true" />
+        <activity android:name=".Activity_Lista_Pedido_e_Contato" />
         <activity android:name=".Activity_CatalogoConsumiveis_limao" />
         <activity android:name=".Activity_CatalogoConsumiveis_Morango" />
         <activity android:name=".Activity_Catalogo_Consumiveis" />
@@ -26,5 +37,5 @@
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />
     </application>
-    <uses-permission android:name="android.permission.CALL_PHONE" />
+
 </manifest>
