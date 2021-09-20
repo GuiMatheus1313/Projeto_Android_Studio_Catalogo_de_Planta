@@ -1,4 +1,4 @@
-![Alt text](http:https://ibb.co/562FtFW "Optional title")
+![Catálogo de plantas](https://user-images.githubusercontent.com/82534464/134055642-f1bb8557-bde5-4eb0-88d6-df7210d8d6b7.png)
 # Projeto_AS_Catalogo_de_Planta_MyGarden_(EM ANDAMENTO)
 Projeto feito no Android Studio. 
 
