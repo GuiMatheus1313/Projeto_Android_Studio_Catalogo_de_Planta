@@ -1,11 +1,18 @@
 package com.example.testandoapp;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.app.ActivityCompat;
 
+import android.Manifest;
 import android.content.Intent;
+import android.content.pm.PackageManager;
+import android.location.LocationListener;
+import android.location.LocationManager;
 import android.os.Bundle;
 import android.view.View;
+import android.webkit.WebView;
 import android.widget.Button;
+import android.widget.Toast;
 
 
 import java.util.List;
@@ -19,6 +26,8 @@ public class Activity_CalcularUmidade extends AppCompatActivity {
 
         Button btn_umidade = findViewById(R.id.button_CalcularUmidade);
 
+        Button btn_encontraloja = findViewById(R.id.button_EncontrarLoja);
+
         btn_umidade.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -29,8 +38,19 @@ public class Activity_CalcularUmidade extends AppCompatActivity {
             }
         });
 
+        btn_encontraloja.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent telaencontraloja = new Intent(Activity_CalcularUmidade.this, Activity_EncontraLoja.class);
+                finish();
+                startActivity(telaencontraloja);
+            }
+        });
+
 
     }
+
+
 
 
 }
