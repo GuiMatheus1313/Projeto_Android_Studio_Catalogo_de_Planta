@@ -139,14 +139,16 @@
             android:layout_marginLeft="148sp"
             android:text="@string/BotaoExtraCatalogo" />
 
-        <Button
-            android:id="@+id/button_RetornaCatalogo3"
-            android:layout_width="58dp"
+        <ImageButton
+            android:id="@+id/IMGbutton_RetornaCatalogo3"
+            android:layout_width="40dp"
             android:layout_height="wrap_content"
             android:layout_marginLeft="10dp"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="-20sp"
             android:background="@drawable/botaoformato_catalogo_retorno"
+            android:backgroundTint="@color/purple_700"
             android:fontFamily="sans-serif-medium"
-            android:text="@string/RetornodeCatalogo" />
+            android:src="@drawable/abc_vector_test"
+            tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

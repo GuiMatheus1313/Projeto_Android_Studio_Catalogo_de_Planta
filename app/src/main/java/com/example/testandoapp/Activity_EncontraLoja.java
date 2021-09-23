@@ -42,6 +42,8 @@ public class Activity_EncontraLoja extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        //Criação de variáveis para retorno para Activity anterior
+
         Button btnencontraLoja_voltar = findViewById(R.id.btnEncontraLoja_Voltar);
 
         btnencontraLoja_voltar.setOnClickListener(new View.OnClickListener() {
@@ -54,10 +56,11 @@ public class Activity_EncontraLoja extends AppCompatActivity {
         });
 
     }
+    //Método utilizado para checar os dados de acesso das permissões sobre o GPS
     public void buscainfoGPS(View v){
         if (ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED &&
                 ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_COARSE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
-            ActivityCompat.requestPermissions((Activity_EncontraLoja.this), new String[]{ Manifest.permission.ACCESS_FINE_LOCATION}, 1);
+            ActivityCompat.requestPermissions(Activity_EncontraLoja.this, new String[]{ Manifest.permission.ACCESS_FINE_LOCATION}, 1);
             ActivityCompat.requestPermissions(Activity_EncontraLoja.this, new String[] {Manifest.permission.ACCESS_COARSE_LOCATION}, 1);
             ActivityCompat.requestPermissions(Activity_EncontraLoja.this, new String[] {Manifest.permission.ACCESS_NETWORK_STATE}, 1);
             return;
@@ -79,7 +82,7 @@ public class Activity_EncontraLoja extends AppCompatActivity {
 
 
     }
-
+    //Adquire o endereço para mostrar o google maps com a latitude e longitude dos sensores GPS
     public void mostrarGoogleMaps(double latitude, double longitude){
         WebView wv = findViewById(R.id.WebView_GPS);
         wv.getSettings().setJavaScriptEnabled(true);

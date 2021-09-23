@@ -19,7 +19,7 @@ public class Activity_Catalogo_Consumiveis extends AppCompatActivity {
 
         ImageButton limao =  findViewById(R.id.imageButton_Catalogo_Limao);
 
-        Button retorno = findViewById(R.id.button_RetornaCatalogo);
+        ImageButton retorno = findViewById(R.id.IMGbutton_RetornaCatalogo);
         //Retornando à Main Activity, sendo uma intent explicita
         retorno.setOnClickListener(new View.OnClickListener() {
            public void onClick(View v){

@@ -7,6 +7,7 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageButton;
 
 public class Activity_CatalogoConsumiveis_Morango extends AppCompatActivity {
 
@@ -15,7 +16,7 @@ public class Activity_CatalogoConsumiveis_Morango extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_catalogo_consumiveis_morango);
         //Criação dos métodos para os Buttons
-        Button retornar = (Button) findViewById(R.id.button_RetornaCatalogo3);
+        ImageButton retornar = findViewById(R.id.IMGbutton_RetornaCatalogo3);
 
         Button extra = (Button) findViewById((R.id.button_ExtraCatalogoMorango));
         //Retornando à Activity Catálogo Consumíveis, sendo uma intent explicita

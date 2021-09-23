@@ -25,7 +25,7 @@ public class Activity_CalcularUmidade extends AppCompatActivity {
         setContentView(R.layout.activity_calcular_umidade);
 
         Button btn_umidade = findViewById(R.id.button_CalcularUmidade);
-
+        Button btn_voltar = findViewById(R.id.buttonExtras_Voltar);
         Button btn_encontraloja = findViewById(R.id.button_EncontrarLoja);
 
         btn_umidade.setOnClickListener(new View.OnClickListener() {
@@ -44,6 +44,15 @@ public class Activity_CalcularUmidade extends AppCompatActivity {
                 Intent telaencontraloja = new Intent(Activity_CalcularUmidade.this, Activity_EncontraLoja.class);
                 finish();
                 startActivity(telaencontraloja);
+            }
+        });
+
+        btn_voltar.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent telamenu = new Intent (Activity_CalcularUmidade.this, MainActivity.class);
+                finish();
+                startActivity(telamenu);
             }
         });
 

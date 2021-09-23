@@ -17,7 +17,7 @@
         <WebView
             android:id="@+id/WebView_GPS"
             android:layout_width="match_parent"
-            android:layout_height="670dp" />
+            android:layout_height="370dp" />
 
         <Button
             android:id="@+id/btnEncontraLoja_Voltar"

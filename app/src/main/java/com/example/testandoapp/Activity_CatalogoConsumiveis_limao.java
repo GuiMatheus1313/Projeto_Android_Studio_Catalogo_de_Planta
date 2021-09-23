@@ -7,6 +7,7 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageButton;
 
 public class Activity_CatalogoConsumiveis_limao extends AppCompatActivity {
 
@@ -15,7 +16,7 @@ public class Activity_CatalogoConsumiveis_limao extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_catalogo_consumiveis_limao);
         //Criação de métodos para os Buttons
-        Button retornar = findViewById(R.id.button_RetornaCatalogo2);
+        ImageButton retornar = findViewById(R.id.IMGbutton_RetornaCatalogo2);
 
         Button site = findViewById(R.id.button_ExtraCatalogoLimao);
         //Retornando à Activity Catálogo Consumíveis, sendo uma intent explicita
