@@ -14,7 +14,7 @@ OBEJTIVO:
   * Armazenamento Interno
   * Armazenamento Externo
 
-Utilizaremos o sensor de umidade para checar a umidadade do ambiente, estabelecendo se é vantajoso manter uma plante naquele local. A localização será checada pelo app ao usarmos a localização do celular para traçar uma rota para lojas de jardinagem próximas. (...)
+Utilizaremos o sensor de umidade para checar a umidadade do ambiente, estabelecendo se é vantajoso manter uma plante naquele local. A localização será checada pelo app ao usarmos a localização do celular para traçar uma rota para lojas de jardinagem próximas. Outro sensor que poderá ser utilizado é o sensor GPS, auxiliando o usuário à encontrar estabelecimentos de botânica. Na tela de cadastro do perfil, o email será salvo no armazenamento interno do dispositivo para futuro salvamento de dados.
 -------------------------------------------------------------------------
 ETEC PROF. BASILIDES DE GODOY - 2021 - 2° ETIM DS
 
