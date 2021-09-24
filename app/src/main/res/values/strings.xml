@@ -15,49 +15,49 @@
     <string name="TituloCatalogoMorango">MORANGO</string>
     <string name="TituloCatalogoLimao">LIMÃO</string>
     <string name="Parte1InfoMorango">
-        -Tipo: Fruto rasteiro
+        -Tipo: Fruto rasteiro;
     </string>
     <string name="Parte2InfoMorango">
-        -Nome botânico: Fragaria vesca
+        -Nome botânico: Fragaria vesca;
     </string>
     <string name="Parte3InfoMorango">
-        -Região de origem: Europa
+        -Região de origem: Europa;
     </string>
     <string name="Parte4InfoMorango">
-        -Nome do conjunto: Morangueiro
+        -Nome do conjunto: Morangueiro;
     </string>
     <string name="Parte5InfoMorango">
-        -Espécie comum: Fragaria
+        -Espécie comum: Fragaria;
     </string>
     <string name="Parte6InfoMorango">
-        -Benefícios: Actua contra diarreia, artrites
+        -Benefícios: Actua contra diarreia, artrites;
     </string>
     <string name="Parte7InfoMorango">
-        -pH: 5,3 e 6,5;
+        -pH: 5,3 e 6,5.
     </string>
     <string name="TitInfoCatalogo"> Informações Gerais</string>
     <string name="TitExtraCatalogo"> Informações extras </string>
     <string name="BotaoExtraCatalogo">Site</string>
     <string name="Parte1InfoLimao">
-        -Tipo: Fruto cítrico (citrus)
+        -Tipo: Fruto cítrico (citrus);
     </string>
     <string name="Parte2InfoLimao">
-        -Nome botânico: Citrus limon
+        -Nome botânico: Citrus limon;
     </string>
     <string name="Parte3InfoLimao">
-        -Região de origem: Continente asiático
+        -Região de origem: Continente asiático;
     </string>
     <string name="Parte4InfoLimao">
-        -Nome do conjunto: Limoeiro
+        -Nome do conjunto: Limoeiro;
     </string>
     <string name="Parte5InfoLimao">
-        -Espécie comum: Citrus limonum
+        -Espécie comum: Citrus limonum;
     </string>
     <string name="Parte6InfoLimao">
-        -Benefícios: Anti-inflamatório e anti-alérgico
+        -Benefícios: Anti-inflamatório e anti-alérgico;
     </string>
     <string name="Parte7InfoLimao">
-        -Tipo de solo: Bem drenado e frescos;
+        -Tipo de solo: Bem drenado e frescos.
     </string>
     <string name="Listarpedidos">Listar pedidos</string>
     <string name="HintPerfilEmail">Digite seu email aqui</string>
@@ -70,5 +70,16 @@
     <string name="TitExtras">Aqui esta algumas funções extras que o APP oferece!</string>
     <string name="btnUmidade">Calcular a umidade do local</string>
     <string name="btnGPS">Encontrar lojas botânicas próximas</string>
+    <string name="Vazio"></string>
+
+    <string name="serviço_interrompido">O serviço está indisponível</string>
+    <string name="erro_coordenadas">Coordenadas inválidas</string>
+    <string name="endereco_indisponivel">Endereço inexistente</string>
+    <string name="endereco">"Endereço: %1$s \n Longitude: %3$s \n Timestamp %4$tr"</string>
+    <string name="Carregamento">Carregando...</string>
+    <string name="Parar_Busca">Parar busca</string>
+    <string name="Inicia_Busca">Iniciar</string>
+    <string name="hint">Clique no botão para iniciar</string>
+    <string name="TitGPS">Aqui mostrará as informações sobre o GPS</string>
 
 </resources>

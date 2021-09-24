@@ -43,5 +43,12 @@
             android:includeFontPadding="true"
             android:text="@string/btnGPS"
             app:icon="@drawable/encontrar_localizacao" />
+
+        <Button
+            android:id="@+id/buttonExtras_Voltar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100sp"
+            android:text="@string/RetornodoCadastro" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

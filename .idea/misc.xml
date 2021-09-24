@@ -6,9 +6,11 @@
         <entry key="..\:/Users/Gilberto/Desktop/Projetos_ANDROID_STUDIO/app/src/main/res/drawable/botaoformato_catalogo_retorno.xml" value="0.2296875" />
         <entry key="..\:/Users/Gilberto/Desktop/Projetos_ANDROID_STUDIO/app/src/main/res/drawable/botaoformato_perfil.xml" value="0.1" />
         <entry key="..\:/Users/Gilberto/Desktop/Projetos_ANDROID_STUDIO/app/src/main/res/drawable/imagebuttonformato_main_umidade.xml" value="0.1" />
-        <entry key="..\:/Users/Gilberto/Desktop/Projetos_ANDROID_STUDIO/app/src/main/res/layout/activity_calc_umidade.xml" value="0.18" />
+        <entry key="..\:/Users/Gilberto/Desktop/Projetos_ANDROID_STUDIO/app/src/main/res/layout/activity_calc_umidade.xml" value="0.25" />
         <entry key="..\:/Users/Gilberto/Desktop/Projetos_ANDROID_STUDIO/app/src/main/res/layout/activity_calcular_umidade.xml" value="0.33" />
-        <entry key="..\:/Users/Gilberto/Desktop/Projetos_ANDROID_STUDIO/app/src/main/res/layout/activity_catalogo_consumiveis.xml" value="0.13134057971014493" />
+        <entry key="..\:/Users/Gilberto/Desktop/Projetos_ANDROID_STUDIO/app/src/main/res/layout/activity_catalogo_consumiveis.xml" value="0.2" />
+        <entry key="..\:/Users/Gilberto/Desktop/Projetos_ANDROID_STUDIO/app/src/main/res/layout/activity_catalogo_consumiveis_limao.xml" value="0.5" />
+        <entry key="..\:/Users/Gilberto/Desktop/Projetos_ANDROID_STUDIO/app/src/main/res/layout/activity_catalogo_consumiveis_morango.xml" value="0.25" />
         <entry key="..\:/Users/Gilberto/Desktop/Projetos_ANDROID_STUDIO/app/src/main/res/layout/activity_encontra_loja.xml" value="0.17255434782608695" />
         <entry key="..\:/Users/Gilberto/Desktop/Projetos_ANDROID_STUDIO/app/src/main/res/layout/activity_lista_pedido_econtato.xml" value="0.13134057971014493" />
         <entry key="..\:/Users/Gilberto/Desktop/Projetos_ANDROID_STUDIO/app/src/main/res/layout/activity_main.xml" value="0.22" />

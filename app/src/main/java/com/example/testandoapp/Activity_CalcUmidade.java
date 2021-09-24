@@ -1,8 +1,12 @@
 package com.example.testandoapp;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.app.ActivityCompat;
+
+import android.Manifest;
 import android.content.Context;
 import android.content.Intent;
+import android.content.pm.PackageManager;
 import android.hardware.Sensor;
 import android.hardware.SensorEvent;
 import android.hardware.SensorEventListener;
@@ -13,6 +17,8 @@ import android.widget.Button;
 import android.widget.TextView;
 
 public class Activity_CalcUmidade extends AppCompatActivity implements SensorEventListener {
+
+    //Criação de variáveis para o funcionamento do sensor de umidade
     private SensorManager srmgr;
     private Sensor Sensor_Umidade;
     private Sensor Sensor_Temperatura;
@@ -27,11 +33,14 @@ public class Activity_CalcUmidade extends AppCompatActivity implements SensorEve
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_calc_umidade);
+
+        //Adquirindo os valores de ID de cada TextView, além do SensorManager
         Valor_da_UmidadeRelativa = (TextView) findViewById(R.id.textView_Umidade1);
         Valor_da_UmidadeAbsoluta = (TextView) findViewById(R.id.textView_Umidade2);
         Valor_de_umedecer = (TextView) findViewById(R.id.textView_Umidade3);
         srmgr = (SensorManager) this.getSystemService(Context.SENSOR_SERVICE);
 
+        //Condição para verificar se o sensor de umidade relativa está ativo ou não, sendo reproduzido uma mensagem de aviso em um caso negativo
         if(srmgr.getDefaultSensor(Sensor.TYPE_RELATIVE_HUMIDITY) != null){
             Sensor_Umidade = srmgr.getDefaultSensor(Sensor.TYPE_RELATIVE_HUMIDITY);
             presenca_do_SensorUmidade = true;
@@ -42,6 +51,7 @@ public class Activity_CalcUmidade extends AppCompatActivity implements SensorEve
             presenca_do_SensorUmidade=false;
         }
 
+        //Condição para verificar se o sensor de temperatura está ativo ou não, sendo reproduzido uma mensagem de aviso em um caso negativo
         if(srmgr.getDefaultSensor(Sensor.TYPE_AMBIENT_TEMPERATURE) != null){
             Sensor_Temperatura = srmgr.getDefaultSensor(Sensor.TYPE_AMBIENT_TEMPERATURE);
             presenca_do_SensorTemp = true;
@@ -51,20 +61,22 @@ public class Activity_CalcUmidade extends AppCompatActivity implements SensorEve
             presenca_do_SensorTemp = false;
         }
 
-        Button btn_acharloja = findViewById(R.id.button_EncontrarLoja);
+        //Criação de variável e método para voltar a Activity anterior
 
-        btn_acharloja.setOnClickListener(new View.OnClickListener() {
+        Button btncalcUmi_Voltar = findViewById(R.id.btnCalcUmi_Voltar);
+
+        btncalcUmi_Voltar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent telaloja = new Intent(Activity_CalcUmidade.this, Activity_EncontraLoja.class);
+                Intent telaextrasvoltar = new Intent(Activity_CalcUmidade.this, Activity_CalcularUmidade.class);
                 finish();
-                startActivity(telaloja);
+                startActivity(telaextrasvoltar);
             }
         });
     }
 
 
-    /*      */
+    //Todo o método é utilizado para indicar alteração dos valores enquanto há o uso dos sensores
     @Override
     public void onSensorChanged(SensorEvent evento){
         if (evento.sensor.getType() == Sensor.TYPE_RELATIVE_HUMIDITY){
@@ -82,6 +94,7 @@ public class Activity_CalcUmidade extends AppCompatActivity implements SensorEve
     }
 
 
+    //Método que retorna o valor de um calculo de umidade absoluta
     public float calcularUmidadeAbsoluta(float temperatura, float UmidadeRelativa){
         float Dv = 0;
         float m = 17.62f;
@@ -97,6 +110,7 @@ public class Activity_CalcUmidade extends AppCompatActivity implements SensorEve
         return Dv;
     }
 
+    //Método que retorna o valor de um calculo de umedecer
     public float calcularUmedecer(float temperatura, float Umidaderelativa)
     {
         float Td = 0;
@@ -114,7 +128,7 @@ public class Activity_CalcUmidade extends AppCompatActivity implements SensorEve
     public void onAccuracyChanged(Sensor sensor, int accuracy) {
 
     }
-
+    //Método para anular todas as ações dos sensores ao sair desta Activity
     @Override
     protected void onDestroy(){
         super.onDestroy();

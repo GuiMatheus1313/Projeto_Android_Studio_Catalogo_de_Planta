@@ -18,27 +18,41 @@
             android:id="@+id/textView_Umidade1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="40sp"
+            android:layout_marginLeft="20sp"
             android:layout_marginTop="50sp"
-            android:text="TextView"
-            android:textColor="@color/black" />
+            android:fontFamily="@font/galada"
+            android:text="@string/Vazio"
+            android:textColor="@color/black"
+            android:textSize="10sp" />
 
         <TextView
             android:id="@+id/textView_Umidade2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="40sp"
+            android:layout_marginLeft="20sp"
             android:layout_marginTop="50sp"
-            android:text="TextView"
-            android:textColor="@color/black" />
+            android:fontFamily="@font/galada"
+            android:text="@string/Vazio"
+            android:textColor="@color/black"
+            android:textSize="10sp"
+            tools:fontFamily="@font/galada" />
 
         <TextView
             android:id="@+id/textView_Umidade3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="40sp"
+            android:layout_marginLeft="20sp"
             android:layout_marginTop="50sp"
-            android:text="TextView"
-            android:textColor="@color/black" />
+            android:fontFamily="@font/galada"
+            android:text="@string/Vazio"
+            android:textColor="@color/black"
+            android:textSize="10sp" />
+
+        <Button
+            android:id="@+id/btnCalcUmi_Voltar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="380sp"
+            android:text="@string/RetornodoCadastro" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
