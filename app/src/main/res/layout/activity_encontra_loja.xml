@@ -14,16 +14,29 @@
         tools:layout_editor_absoluteX="1dp"
         tools:layout_editor_absoluteY="1dp">
 
-        <WebView
-            android:id="@+id/WebView_GPS"
-            android:layout_width="match_parent"
-            android:layout_height="370dp" />
-
-        <Button
-            android:id="@+id/btnEncontraLoja_Voltar"
+        <TextView
+            android:id="@+id/textView_location"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
+            android:layout_marginLeft="30sp"
+            android:layout_marginTop="80sp"
+            android:fontFamily="@font/galada"
+            android:text="@string/TitGPS"
+            android:textColor="@color/black"
+            android:textSize="10sp" />
+
+        <Button
+            android:id="@+id/btnEncontraLoja_INICIAR"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:text="@string/hint" />
+
+        <Button
+            android:id="@+id/buttonGPS_Voltar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="300sp"
             android:text="@string/RetornodoCadastro" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

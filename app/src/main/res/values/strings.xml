@@ -72,4 +72,14 @@
     <string name="btnGPS">Encontrar lojas botânicas próximas</string>
     <string name="Vazio"></string>
 
+    <string name="serviço_interrompido">O serviço está indisponível</string>
+    <string name="erro_coordenadas">Coordenadas inválidas</string>
+    <string name="endereco_indisponivel">Endereço inexistente</string>
+    <string name="endereco">"Endereço: %1$s \n Longitude: %3$s \n Timestamp %4$tr"</string>
+    <string name="Carregamento">Carregando...</string>
+    <string name="Parar_Busca">Parar busca</string>
+    <string name="Inicia_Busca">Iniciar</string>
+    <string name="hint">Clique no botão para iniciar</string>
+    <string name="TitGPS">Aqui mostrará as informações sobre o GPS</string>
+
 </resources>
